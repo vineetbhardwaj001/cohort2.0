@@ -196,7 +196,7 @@ main {
             height: 30%;
             grid-gap: 10px;
             padding: 10px;
-           
+
             grid-template-areas:
                 "card1 card2"
                 "card3 card4"
@@ -211,56 +211,340 @@ main {
                     color: rgba(244, 242, 237, .6);
                     font-size: 30px;
                 }
+
                 h3:nth-child(2) {
                     color: #f4f2ed;
-                     font-size: 30px;
-                     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 30px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 }
 
             }
-              .card2 {
+
+            .card2 {
                 text-align: center;
                 background-color: #121212;
 
-              h3:nth-child(1) {
+                h3:nth-child(1) {
                     color: rgba(244, 242, 237, .6);
                     font-size: 30px;
                 }
+
                 h3:nth-child(2) {
                     color: #f4f2ed;
-                     font-size: 30px;
-                     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 30px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 }
 
             }
-              .card3 {
+
+            .card3 {
                 text-align: center;
                 background-color: #121212;
 
-               h3:nth-child(1) {
+                h3:nth-child(1) {
                     color: rgba(244, 242, 237, .6);
                     font-size: 30px;
                 }
+
                 h3:nth-child(2) {
                     color: #f4f2ed;
-                     font-size: 30px;
-                     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 30px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 }
             }
-              .card4 {
+
+            .card4 {
                 text-align: center;
-                // mg
+
                 background-color: #121212;
 
-               h3:nth-child(1) {
+                h3:nth-child(1) {
                     color: rgba(244, 242, 237, .6);
                     font-size: 30px;
                 }
+
                 h3:nth-child(2) {
 
                     color: #f4f2ed;
-                     font-size: 30px;
-                     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 30px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+
+            }
+        }
+
+        .grid2 {
+            display: grid;
+            position: relative;
+            top: 40%;
+            width: 100%;
+            height: 100%;
+            grid-gap: 10px;
+            padding: 10px;
+
+            grid-template-areas:
+                "card1 "
+                "card2 "
+                "card3 "
+                "card4 "
+            ;
+
+            .card1 {
+                width: 100%;
+                height: 300px;
+                background-color: #fff;
+                border: none;
+                border-radius: 10px;
+                grid-area: card1;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+            }
+
+            .card2 {
+                width: 100%;
+                height: 640px;
+                background-color: rgba(61, 60, 60, 0.775);
+                border: none;
+                padding: 30px;
+                border-radius: 10px;
+                grid-area: card2;
+                overflow: hidden;
+
+
+                .txt {
+                    padding: 10px;
+                    margin-bottom: 20px;
+
+                    h5 {
+                        color: #f4f2ed;
+                        font-size: 18px;
+                        font-family: "vk";
+                    }
+                }
+
+                h2 {
+                    margin-top: 40px;
+                    font-size: 11vw;
+                    color: #f4f2ed;
+                    font-family: "vk";
+                }
+
+                p {
+                    color: rgba(244, 242, 237, .6);
+
+
+                    margin-top: 20px;
+                    line-height: 28px;
+                    font-size: 5vw;
+                }
+
+                .cir {
+                    display: flex;
+                    gap: 10px;
+
+                    .cirr {
+                        margin-top: 20px;
+                        padding: 7px;
+                        border: 1px solid rgba(244, 242, 237, .6);
+                        border-radius: 50%;
+
+                        i {
+                            font-size: 20px;
+                            font-weight: 100;
+                            color: rgba(244, 242, 237, 0.449);
+                        }
+                    }
+
+                    h3 {
+                        color: #f4f2ed;
+                        margin-top: 29px;
+                    }
+
+                }
+            }
+
+            .card3 {
+                width: 100%;
+                height: 300px;
+                background-color: #fff;
+                border: none;
+                border-radius: 10px;
+                grid-area: card3;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+            }
+
+            .card4 {
+                width: 100%;
+                height: 640px;
+                background-color: rgba(61, 60, 60, 0.775);
+                border: none;
+                padding: 30px;
+                border-radius: 10px;
+                grid-area: card4;
+                overflow: hidden;
+
+
+                .txt {
+                    padding: 10px;
+                    margin-bottom: 20px;
+
+                    h5 {
+                        color: #f4f2ed;
+                        font-size: 18px;
+                        font-family: "vk";
+                    }
+                }
+
+                h2 {
+                    margin-top: 40px;
+                    font-size: 11vw;
+                    color: #f4f2ed;
+                    font-family: "vk";
+                }
+
+                p {
+                    color: rgba(244, 242, 237, .6);
+
+
+                    margin-top: 20px;
+                    line-height: 28px;
+                    font-size: 5vw;
+                }
+
+                .cir {
+                    display: flex;
+                    gap: 10px;
+
+                    .cirr {
+                        margin-top: 20px;
+                        padding: 7px;
+                        border: 1px solid rgba(244, 242, 237, .6);
+                        border-radius: 50%;
+
+                        i {
+                            font-size: 20px;
+                            font-weight: 100;
+                            color: rgba(244, 242, 237, 0.449);
+                        }
+                    }
+
+                    h3 {
+                        color: #f4f2ed;
+                        margin-top: 29px;
+                    }
+
+                }
+            }
+        }
+
+        .txt1 {
+            width: 100%;
+            position: relative;
+            top: 230%;
+
+            .txt-1 {
+                padding: 10px;
+
+                h1 {
+                    font-size: 9vw;
+                    color: #f4f2ed;
+                }
+            }
+
+            .grid {
+                display: grid;
+                width: 100%;
+                height: 100%;
+                grid-gap: 10px;
+                padding: 10px;
+                grid-template-areas:
+                    "card1"
+                    "card2"
+                    "card3"
+                    "card4"
+
+                ;
+            }
+             .card1 {
+                width: 100%;
+                height: 300px;
+                background-color: #fff;
+                border: none;
+                border-radius: 10px;
+                grid-area: card1;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+            }
+             .card2 {
+                width: 100%;
+                height: 300px;
+                background-color: #fff;
+                border: none;
+                border-radius: 10px;
+                grid-area: card2;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+            }
+             .card3{
+                width: 100%;
+                height: 300px;
+                background-color: #fff;
+                border: none;
+                border-radius: 10px;
+                grid-area: card3;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+            }
+             .card4 {
+                width: 100%;
+                height: 300px;
+                background-color: #fff;
+                border: none;
+                border-radius: 10px;
+                grid-area: card4;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
                 }
 
             }

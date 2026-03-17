@@ -10,7 +10,7 @@ btn.addEventListener('click', () => {
     let rot = Math.floor(Math.random() * 360);
     let x = Math.floor(Math.random() * 500);
     let y = Math.floor(Math.random() * 400);
-     
+
     let color = ` rgb(${r},${a},${b})`;
 
     h1.innerHTML = arr[ran];
@@ -18,11 +18,82 @@ btn.addEventListener('click', () => {
 
     h1.style.color = color;
     h1.style.transform = `rotate(${rot}deg)`;
-    h1.style.top = y +"px";
-    h1.style.left = x +"px";
+    h1.style.top = y + "px";
+    h1.style.left = x + "px";
     h1.style.transition = "0.4s";
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
